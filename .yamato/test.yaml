@@ -1,0 +1,7 @@
+name: arieltest
+agent:
+  type: Unity::VM
+  image: cds-ops/ubuntu-18.04-agent:stable
+  flavor: b1.medium
+commands:
+  -  echo "hello"
